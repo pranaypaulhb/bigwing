@@ -10,3 +10,7 @@ collections:
     folder: '_posts/'
     fields:
       - { name: Title }
+backend:
+  name: github
+  repo: sfinite/bigwing
+  preview_context: my-provider/deployment
