@@ -1,16 +1,16 @@
 # config.yml
 
-backend:
+  backend:
+  repo: sfinite/bigwing
+  preview_context: my-provider/deployment
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
-media_folder: 'assets/images'
-collections:
+  media_folder: 'assets/images'
+  collections:
     name: 'blog'
     label: 'Blog'
     folder: '_posts/'
     fields:
       - { name: Title }
       
-  repo: sfinite/bigwing
-  preview_context: my-provider/deployment
-media_folder: "assets/images"
+  
