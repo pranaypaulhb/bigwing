@@ -14,3 +14,4 @@ backend:
   name: github
   repo: sfinite/bigwing
   preview_context: my-provider/deployment
+media_folder: "images/uploads"
